@@ -1,85 +1,104 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed; // Player movement speed
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float skinWidth = 0.02f; // small buffer to avoid penetrating colliders
+    [SerializeField] private LayerMask collisionMask = Physics2D.DefaultRaycastLayers;
+
+    private Rigidbody2D _rb;
+    private Collider2D _col;
+    private Vector2 _input;
+    private readonly RaycastHit2D[] _hits = new RaycastHit2D[8];
 
     void Awake()
     {
-        speed = 5f; // Set the movement speed
+        _rb = GetComponent<Rigidbody2D>();
+        _col = GetComponent<Collider2D>();
+
+        if (_rb == null)
+            Debug.LogWarning("PlayerController: Rigidbody2D missing. Add one (Kinematic is fine).");
+
+        if (_col == null)
+            Debug.LogWarning("PlayerController: Collider2D missing. Shape-casting won’t work.");
     }
 
     void Update()
     {
-        //Controls movement in all four directions
-        if (Input.GetKey(KeyCode.W)) 
-        { 
-            transform.Translate(Vector2.up * testVert(Vector2.up));
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector2.left * testHor(Vector2.left));
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector2.down * testVert(Vector2.down));
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector2.right *testHor(Vector2.right));
-        }
+        // Read raw input in Update so input sampling is responsive
+        _input.x = Input.GetAxisRaw("Horizontal");
+        _input.y = Input.GetAxisRaw("Vertical");
     }
 
-    private float testHor(Vector2 dir)
+    void FixedUpdate()
     {
-        Vector2 origin = transform.position;
-        float offset;
-        if (dir.Equals(Vector2.left))
+        if (_col == null || _rb == null)
         {
-            offset = -0.125f; //Offset for the left side of the character
-        } else
-        {
-            offset = 0.125f; //Offset for the right side of the character
+            // Fallback: simple transform movement if components missing
+            transform.Translate(_input.normalized * speed * Time.fixedDeltaTime);
+            return;
         }
 
-        origin.x += offset;
-        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, speed * Time.deltaTime);
+        // Desired movement for this physics step
+        Vector2 desired = _input.normalized * speed * Time.fixedDeltaTime;
 
-        if (raycast.collider != null && raycast.collider.gameObject.tag == "Collidable") //If raycast hits something tagged "Collideable" 
+        // Move separately on X then Y to allow sliding along obstacles
+        Vector2 pos = _rb.position;
+        if (!Mathf.Approximately(desired.x, 0f))
         {
-            float distance = Math.Abs(raycast.point.x - origin.x);
-            return distance;
+            pos = MoveAxis(pos, new Vector2(desired.x, 0f));
         }
 
-        return speed * Time.deltaTime;
+        if (!Mathf.Approximately(desired.y, 0f))
+        {
+            pos = MoveAxis(pos, new Vector2(0f, desired.y));
+        }
+
+        _rb.MovePosition(pos);
     }
 
-    private float testVert(Vector2 dir)
+    private Vector2 MoveAxis(Vector2 startPos, Vector2 delta)
     {
-        Vector2 origin = transform.position;
-        float offset;
-        if (dir.Equals(Vector2.up))
-        {
-            offset = .1f; //Offset for top side of character
-        } else
-        {
-            offset = -0.5f; //Offset for bottom side of character
-        }
-        origin.y += offset;
-        RaycastHit2D raycast = Physics2D.Raycast(origin, dir, speed * Time.deltaTime);
+        Vector2 direction = delta.normalized;
+        float distance = Mathf.Abs(delta.magnitude);
 
-        if (raycast.collider != null && raycast.collider.gameObject.tag == "Collidable") //If raycast hits something tagged "Collideable" 
+        // Cast the collider along the movement direction using the collider's shape
+        int hitCount = _col.Cast(direction, _hits, distance + skinWidth, true);
+
+        // Filter hits by layer mask and ignore self
+        float nearest = float.PositiveInfinity;
+        for (int i = 0; i < hitCount; i++)
         {
-            float distance = Math.Abs(raycast.point.y - origin.y);
-            return distance;
+            var hit = _hits[i];
+            if (hit.collider == null || hit.collider.gameObject == gameObject)
+                continue;
+
+            if ((collisionMask & (1 << hit.collider.gameObject.layer)) == 0)
+                continue;
+
+            if (hit.distance < nearest)
+                nearest = hit.distance;
         }
 
-        return speed * Time.deltaTime;
+        if (nearest == float.PositiveInfinity)
+        {
+            // No collisions: move full delta
+            return startPos + delta;
+        }
+
+        // Move up to the nearest contact minus skinWidth
+        float allowed = Mathf.Max(0f, nearest - skinWidth);
+        return startPos + direction * allowed;
     }
+
+#if UNITY_EDITOR
+    void OnDrawGizmosSelected()
+    {
+        if (_col == null) return;
+        Gizmos.color = Color.cyan;
+        Bounds b = _col.bounds;
+        Gizmos.DrawWireCube(b.center, b.size);
+    }
+#endif
 }
