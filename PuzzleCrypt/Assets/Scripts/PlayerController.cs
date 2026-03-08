@@ -6,34 +6,40 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private float speed; // Player movement speed
+    private Rigidbody2D rb;
 
     void Awake()
     {
-        speed = 5f; // Set the movement speed
+        speed = 2000f; // Set the movement speed
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
+        Vector2 velocity = Vector2.zero;
+
         //Controls movement in all four directions
         if (Input.GetKey(KeyCode.W)) 
         { 
-            transform.Translate(Vector2.up * testVert(Vector2.up));
+            velocity += Vector2.up * testVert(Vector2.up);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector2.left * testHor(Vector2.left));
+            velocity += Vector2.left * testHor(Vector2.left);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(Vector2.down * testVert(Vector2.down));
+            velocity += Vector2.down * testVert(Vector2.down);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector2.right *testHor(Vector2.right));
+            velocity += Vector2.right * testHor(Vector2.right);
         }
+
+        rb.linearVelocity = velocity;
     }
 
     private float testHor(Vector2 dir)

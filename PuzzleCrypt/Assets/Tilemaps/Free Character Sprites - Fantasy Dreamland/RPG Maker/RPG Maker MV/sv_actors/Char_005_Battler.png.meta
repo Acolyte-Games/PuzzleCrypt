@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: fb2d0d6d31ad7ab43856bfd17da84d89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6866342921265890833
+    second: Char_005_Battler_0
+  - first:
+      213: 5170515120341828909
+    second: Char_005_Battler_1
+  - first:
+      213: 7155074080191272360
+    second: Char_005_Battler_2
+  - first:
+      213: 6572399361819171637
+    second: Char_005_Battler_3
+  - first:
+      213: 1341385568694878129
+    second: Char_005_Battler_4
+  - first:
+      213: -1943717246822411844
+    second: Char_005_Battler_5
+  - first:
+      213: -6784511360270069792
+    second: Char_005_Battler_6
+  - first:
+      213: 1009658019388106925
+    second: Char_005_Battler_7
+  - first:
+      213: 7038048253779179439
+    second: Char_005_Battler_8
+  - first:
+      213: 4753878656017579716
+    second: Char_005_Battler_9
+  - first:
+      213: 585204397071497279
+    second: Char_005_Battler_10
+  - first:
+      213: -8363474603151289787
+    second: Char_005_Battler_11
+  - first:
+      213: -7457431732064149111
+    second: Char_005_Battler_12
+  - first:
+      213: 1017067223482700072
+    second: Char_005_Battler_13
+  - first:
+      213: 3750208943084696320
+    second: Char_005_Battler_14
+  - first:
+      213: 1508302570995690558
+    second: Char_005_Battler_15
+  - first:
+      213: -7154151710699887661
+    second: Char_005_Battler_16
+  - first:
+      213: 7847411865152815395
+    second: Char_005_Battler_17
+  - first:
+      213: 4908222006833362127
+    second: Char_005_Battler_18
+  - first:
+      213: 1713025370537456941
+    second: Char_005_Battler_19
+  - first:
+      213: -3471394045450325259
+    second: Char_005_Battler_20
+  - first:
+      213: 3656104123539667936
+    second: Char_005_Battler_21
+  - first:
+      213: -5647040932142262542
+    second: Char_005_Battler_22
+  - first:
+      213: -6301315849489266968
+    second: Char_005_Battler_23
+  - first:
+      213: -3233864908739268937
+    second: Char_005_Battler_24
+  - first:
+      213: 3977198559668166026
+    second: Char_005_Battler_25
+  - first:
+      213: 4509214666346898633
+    second: Char_005_Battler_26
+  - first:
+      213: -4837085139183790735
+    second: Char_005_Battler_27
+  - first:
+      213: 9032957821189574524
+    second: Char_005_Battler_28
+  - first:
+      213: -1424391992589644596
+    second: Char_005_Battler_29
+  - first:
+      213: 1071670241008931537
+    second: Char_005_Battler_30
+  - first:
+      213: -4819477104905809174
+    second: Char_005_Battler_31
+  - first:
+      213: 8300500921883348611
+    second: Char_005_Battler_32
+  - first:
+      213: -5890708969974321797
+    second: Char_005_Battler_33
+  - first:
+      213: -5957064149205550570
+    second: Char_005_Battler_34
+  - first:
+      213: 2321037635014488385
+    second: Char_005_Battler_35
+  - first:
+      213: 576897097540099829
+    second: Char_005_Battler_36
+  - first:
+      213: -2607622968409151897
+    second: Char_005_Battler_37
+  - first:
+      213: -4105904315194581060
+    second: Char_005_Battler_38
+  - first:
+      213: -1212755518247417245
+    second: Char_005_Battler_39
+  - first:
+      213: 5047417632207047016
+    second: Char_005_Battler_40
+  - first:
+      213: 8224341418431471543
+    second: Char_005_Battler_41
+  - first:
+      213: -8703483387124431885
+    second: Char_005_Battler_42
+  - first:
+      213: 1237500108591107183
+    second: Char_005_Battler_43
+  - first:
+      213: -2435320465688033731
+    second: Char_005_Battler_44
+  - first:
+      213: 9196014517260590705
+    second: Char_005_Battler_45
+  - first:
+      213: 8976799826694837945
+    second: Char_005_Battler_46
+  - first:
+      213: -8531975100145711666
+    second: Char_005_Battler_47
+  - first:
+      213: 4899366554830225960
+    second: Char_005_Battler_48
+  - first:
+      213: -8895822939102310389
+    second: Char_005_Battler_49
+  - first:
+      213: 5040732894318206717
+    second: Char_005_Battler_50
+  - first:
+      213: -8550490376437521623
+    second: Char_005_Battler_51
+  - first:
+      213: 6363326109330358552
+    second: Char_005_Battler_52
+  - first:
+      213: 6655105128612126817
+    second: Char_005_Battler_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Char_005_Battler_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 491
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1164218e1862a4f50800000000000000
+      internalID: 6866342921265890833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 488
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25c2cd7b1c51c740800000000000000
+      internalID: 5170515120341828909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 491
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5d76b77fdeb4360800000000000000
+      internalID: 7155074080191272360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 497
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b5c33c56ad53b50800000000000000
+      internalID: 6572399361819171637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 488
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfb4e8511f8d9210800000000000000
+      internalID: 1341385568694878129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 485
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1995756778605e0800000000000000
+      internalID: -1943717246822411844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 491
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef008c1dd298d1a0800000000000000
+      internalID: -6784511360270069792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_7
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 491
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8a0468e96030e00800000000000000
+      internalID: 1009658019388106925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 491
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7f09ef89b2ca160800000000000000
+      internalID: 7038048253779179439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 395
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce3d35537b29f140800000000000000
+      internalID: 4753878656017579716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 392
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3871707c401f1800800000000000000
+      internalID: 585204397071497279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 395
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5429a27f828feeb80800000000000000
+      internalID: -8363474603151289787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 401
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9812791d951e18890800000000000000
+      internalID: -7457431732064149111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_13
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 392
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821116840495d1e00800000000000000
+      internalID: 1017067223482700072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_14
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 389
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0037e0e0a2b6b0430800000000000000
+      internalID: 3750208943084696320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_15
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 392
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ca10e62319ee410800000000000000
+      internalID: 1508302570995690558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_16
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 398
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3ea766ce857bc90800000000000000
+      internalID: -7154151710699887661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 401
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3218e94938b97ec60800000000000000
+      internalID: 7847411865152815395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 299
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4be0c09e18d1440800000000000000
+      internalID: 4908222006833362127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_19
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 296
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25fd1e9f73e5c710800000000000000
+      internalID: 1713025370537456941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_20
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 299
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f685028123dfc0800000000000000
+      internalID: -3471394045450325259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_21
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 305
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb3c6954571db230800000000000000
+      internalID: 3656104123539667936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_22
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 302
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6d197013ea1a1b0800000000000000
+      internalID: -5647040932142262542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_23
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 299
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e647a5ee9a3d88a0800000000000000
+      internalID: -6301315849489266968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_24
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 299
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beaefecff00f13d0800000000000000
+      internalID: -3233864908739268937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_25
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 296
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d57369409d13730800000000000000
+      internalID: 3977198559668166026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_26
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 299
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4a69329d2f39e30800000000000000
+      internalID: 4509214666346898633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 200
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17511a2a1b83fdcb0800000000000000
+      internalID: -4837085139183790735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_28
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 200
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f471b97438b5d70800000000000000
+      internalID: 9032957821189574524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_29
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 200
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc88cc870b8b3ce0800000000000000
+      internalID: -1424391992589644596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_30
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 209
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2d1bff7665fde00800000000000000
+      internalID: 1071670241008931537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 200
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae216f69b17cd1db0800000000000000
+      internalID: -4819477104905809174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_32
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 197
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ec8aa4c9d413370800000000000000
+      internalID: 8300500921883348611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_33
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 203
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d2971f66fff3ea0800000000000000
+      internalID: -5890708969974321797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_34
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 200
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a736ad7b1445da0800000000000000
+      internalID: -5957064149205550570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_35
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 203
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141f9518e6bf53020800000000000000
+      internalID: 2321037635014488385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 107
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fed4da8adc810800800000000000000
+      internalID: 576897097540099829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_37
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 104
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766a2dbd9bcdfcbd0800000000000000
+      internalID: -2607622968409151897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_38
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 107
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf551387c5e407c0800000000000000
+      internalID: -4105904315194581060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_39
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 113
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ac777184d6b2fe0800000000000000
+      internalID: -1212755518247417245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_40
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 110
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8698eb818970c0640800000000000000
+      internalID: 5047417632207047016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_41
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 107
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfd32512fab22270800000000000000
+      internalID: 8224341418431471543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_42
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 104
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f34fe1f8f3073780800000000000000
+      internalID: -8703483387124431885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_43
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 104
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c841ecacb7c2110800000000000000
+      internalID: 1237500108591107183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_44
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 104
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d360d6870f0043ed0800000000000000
+      internalID: -2435320465688033731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_45
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e17aa1b7ece9f70800000000000000
+      internalID: 9196014517260590705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b61fe991eff39c70800000000000000
+      internalID: 8976799826694837945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_47
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5465bc9d5589980800000000000000
+      internalID: -8531975100145711666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_48
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822c5157ceb0ef340800000000000000
+      internalID: 4899366554830225960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_49
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0019024b20bb8480800000000000000
+      internalID: -8895822939102310389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_50
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 11
+        width: 26
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe96754cd744f540800000000000000
+      internalID: 5040732894318206717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_51
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 11
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923ab091e4e865980800000000000000
+      internalID: -8550490376437521623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_52
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 11
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811ca90d1631f4850800000000000000
+      internalID: 6363326109330358552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Char_005_Battler_53
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 11
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1606ecdaadeab5c50800000000000000
+      internalID: 6655105128612126817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Char_005_Battler_0: 6866342921265890833
+      Char_005_Battler_1: 5170515120341828909
+      Char_005_Battler_10: 585204397071497279
+      Char_005_Battler_11: -8363474603151289787
+      Char_005_Battler_12: -7457431732064149111
+      Char_005_Battler_13: 1017067223482700072
+      Char_005_Battler_14: 3750208943084696320
+      Char_005_Battler_15: 1508302570995690558
+      Char_005_Battler_16: -7154151710699887661
+      Char_005_Battler_17: 7847411865152815395
+      Char_005_Battler_18: 4908222006833362127
+      Char_005_Battler_19: 1713025370537456941
+      Char_005_Battler_2: 7155074080191272360
+      Char_005_Battler_20: -3471394045450325259
+      Char_005_Battler_21: 3656104123539667936
+      Char_005_Battler_22: -5647040932142262542
+      Char_005_Battler_23: -6301315849489266968
+      Char_005_Battler_24: -3233864908739268937
+      Char_005_Battler_25: 3977198559668166026
+      Char_005_Battler_26: 4509214666346898633
+      Char_005_Battler_27: -4837085139183790735
+      Char_005_Battler_28: 9032957821189574524
+      Char_005_Battler_29: -1424391992589644596
+      Char_005_Battler_3: 6572399361819171637
+      Char_005_Battler_30: 1071670241008931537
+      Char_005_Battler_31: -4819477104905809174
+      Char_005_Battler_32: 8300500921883348611
+      Char_005_Battler_33: -5890708969974321797
+      Char_005_Battler_34: -5957064149205550570
+      Char_005_Battler_35: 2321037635014488385
+      Char_005_Battler_36: 576897097540099829
+      Char_005_Battler_37: -2607622968409151897
+      Char_005_Battler_38: -4105904315194581060
+      Char_005_Battler_39: -1212755518247417245
+      Char_005_Battler_4: 1341385568694878129
+      Char_005_Battler_40: 5047417632207047016
+      Char_005_Battler_41: 8224341418431471543
+      Char_005_Battler_42: -8703483387124431885
+      Char_005_Battler_43: 1237500108591107183
+      Char_005_Battler_44: -2435320465688033731
+      Char_005_Battler_45: 9196014517260590705
+      Char_005_Battler_46: 8976799826694837945
+      Char_005_Battler_47: -8531975100145711666
+      Char_005_Battler_48: 4899366554830225960
+      Char_005_Battler_49: -8895822939102310389
+      Char_005_Battler_5: -1943717246822411844
+      Char_005_Battler_50: 5040732894318206717
+      Char_005_Battler_51: -8550490376437521623
+      Char_005_Battler_52: 6363326109330358552
+      Char_005_Battler_53: 6655105128612126817
+      Char_005_Battler_6: -6784511360270069792
+      Char_005_Battler_7: 1009658019388106925
+      Char_005_Battler_8: 7038048253779179439
+      Char_005_Battler_9: 4753878656017579716
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

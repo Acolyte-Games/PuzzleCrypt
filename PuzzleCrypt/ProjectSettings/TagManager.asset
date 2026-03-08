@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Collidable
   layers:
   - Default
   - TransparentFX
@@ -41,8 +42,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: AboveTheHubFloor
+  - name: Ground
+    uniqueID: 2246163569
+    locked: 0
+  - name: Collision
+    uniqueID: 2951081497
+    locked: 0
+  - name: WalkInFront
+    uniqueID: 2626513219
+    locked: 0
+  - name: Player
     uniqueID: 2581037581
+    locked: 0
+  - name: WalkBehind
+    uniqueID: 3161516585
+    locked: 0
+  - name: Decor
+    uniqueID: 1862887301
     locked: 0
   m_RenderingLayers:
   - Default
