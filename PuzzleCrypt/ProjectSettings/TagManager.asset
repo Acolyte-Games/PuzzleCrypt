@@ -3,13 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags:
-  - Collidable
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - AboveTheHubFloor
   - Water
   - UI
   - 
@@ -41,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: AboveTheHubFloor
+    uniqueID: 2581037581
     locked: 0
   m_RenderingLayers:
   - Default
