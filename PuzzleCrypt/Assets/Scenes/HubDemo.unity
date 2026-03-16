@@ -3901,7 +3901,7 @@ Tilemap:
       - {fileID: 1748691510279232488, guid: b7ccbc9babaf702419d6188a41e60322, type: 3}
       - {fileID: -5247555247312264489, guid: b7ccbc9babaf702419d6188a41e60322, type: 3}
       - {fileID: 3227781158161595601, guid: b7ccbc9babaf702419d6188a41e60322, type: 3}
-      m_AnimationSpeed: 7.0000005
+      m_AnimationSpeed: 7
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -3, y: 2, z: 0}
@@ -31209,6 +31209,7 @@ GameObject:
   - component: {fileID: 1961710824}
   - component: {fileID: 1961710823}
   - component: {fileID: 1961710822}
+  - component: {fileID: 1961710826}
   - component: {fileID: 1961710821}
   - component: {fileID: 1961710825}
   m_Layer: 0
@@ -31252,7 +31253,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961710819}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 876ce91544c33ac4e82b172c53d47d00, type: 3}
   m_Name: 
@@ -31378,6 +31379,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.51, y: 0.8549452}
   m_EdgeRadius: 0
+--- !u!114 &1961710826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961710819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 265684a0b04d58549bd3846534dc53b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TopDownMovement
+  moveSpeed: 6
+  rb: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
