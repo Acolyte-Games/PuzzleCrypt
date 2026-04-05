@@ -9,6 +9,7 @@ public class TopDownMovement : MonoBehaviour
 
     private Vector2 _movement;
     private InputAction _moveAction;
+    private Animator animator;
 
     void Awake()
     {
@@ -46,6 +47,15 @@ public class TopDownMovement : MonoBehaviour
         _moveAction.canceled += ctx => _movement = Vector2.zero;
 
         _moveAction.Enable();
+    }
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogWarning("TopDownMovement: Animator component not found. Animation will not work.");
+        }
     }
 
     void OnEnable()
