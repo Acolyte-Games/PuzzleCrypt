@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -7,18 +8,14 @@ public class PauseMenu : MonoBehaviour
 
     private bool isPaused = false;
 
-    void Update()
+    public void OnPause(InputAction.CallbackContext context)
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (context.performed)
         {
             if (isPaused)
-            {
                 ResumeGame();
-            }
             else
-            {
                 PauseGame();
-            }
         }
     }
 
@@ -45,7 +42,7 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1f;
-        Application.Quit();
         Debug.Log("Quit Game");
+        Application.Quit();
     }
 }

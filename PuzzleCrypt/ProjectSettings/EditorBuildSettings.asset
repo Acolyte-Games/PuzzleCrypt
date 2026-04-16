@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HubDemo.unity
     guid: 3fc3a02e393aaee48a4cdae524c10840
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/ArtMenu.unity
     guid: 872b847508abda54c817cd1403818108
   - enabled: 1
