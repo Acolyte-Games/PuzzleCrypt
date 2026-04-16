@@ -3,14 +3,11 @@ using UnityEngine;
 public class SkullKey : MonoBehaviour, IInteractable
 {
     public bool isCollected { get; private set; }
-    public string SkullID { get; private set; }
+    public string SkullID;
     public Sprite collectedSprite;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        SkullID ??= GlobalHelper.GenerateUniqueID(gameObject);
-    }
+    [Header("Door Reference")]
+    public SkullDoor connectedDoor; // Add reference to the door this key unlocks
 
     public bool CanInteract()
     {
@@ -25,16 +22,24 @@ public class SkullKey : MonoBehaviour, IInteractable
 
     private void CollectKey()
     {
-        setCollected(true);      
-        //Additional logic for when the key is collected (setting skull in front of door to collected)
+        setCollected(true);
     }
 
     public void setCollected(bool collected)
     {
-        if (isCollected = collected)
+        if (isCollected == collected) return; // Early exit if already in this state
+
+        isCollected = collected;
+
+        if (isCollected)
         {
             GetComponent<SpriteRenderer>().sprite = collectedSprite;
+
+            // Notify the connected door
+            if (connectedDoor != null)
+            {
+                connectedDoor.TryActivate();
+            }
         }
     }
-
 }
