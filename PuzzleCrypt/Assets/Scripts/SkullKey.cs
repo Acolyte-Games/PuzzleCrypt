@@ -9,6 +9,14 @@ public class SkullKey : MonoBehaviour, IInteractable
     [Header("Door Reference")]
     public SkullDoor connectedDoor; // Add reference to the door this key unlocks
 
+    private void Start()
+    {
+        if (SaveManager.IsSkullKeyCollected(SkullID))
+        {
+            setCollected(true);
+        }
+    }
+
     public bool CanInteract()
     {
         return !isCollected;
@@ -23,6 +31,7 @@ public class SkullKey : MonoBehaviour, IInteractable
     private void CollectKey()
     {
         setCollected(true);
+        SaveManager.SaveSkullKey(SkullID);
     }
 
     public void setCollected(bool collected)
