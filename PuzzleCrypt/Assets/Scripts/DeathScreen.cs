@@ -2,35 +2,34 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
-public class PauseMenu : MonoBehaviour
+public class DeathScreen : MonoBehaviour
 {
-    public GameObject pausePanel;
+    public GameObject deathPanel;
 
-    private bool isPaused = false;
+    private bool isDead = false;
 
-    public void OnPause(InputAction.CallbackContext context)
+    public void OnDeathTest(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
-            if (isPaused)
-                ResumeGame();
-            else
-                PauseGame();
+            ShowDeathScreen();
         }
     }
 
-    public void PauseGame()
+    public void ShowDeathScreen()
     {
-        pausePanel.SetActive(true);
+        if (isDead)
+            return;
+
+        deathPanel.SetActive(true);
         Time.timeScale = 0f;
-        isPaused = true;
+        isDead = true;
     }
 
-    public void ResumeGame()
+    public void RestartGame()
     {
-        pausePanel.SetActive(false);
         Time.timeScale = 1f;
-        isPaused = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void GoToMainMenu()

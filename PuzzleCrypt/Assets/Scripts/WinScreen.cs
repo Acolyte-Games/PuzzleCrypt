@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class WinScreen : MonoBehaviour
 {
@@ -7,9 +8,9 @@ public class WinScreen : MonoBehaviour
 
     private bool hasWon = false;
 
-    void Update()
+    public void OnWinTest(InputAction.CallbackContext context)
     {
-        if (!hasWon && Input.GetKeyDown(KeyCode.K))
+        if (context.performed)
         {
             ShowWinScreen();
         }
@@ -17,6 +18,8 @@ public class WinScreen : MonoBehaviour
 
     public void ShowWinScreen()
     {
+        if (hasWon) return;
+
         winPanel.SetActive(true);
         Time.timeScale = 0f;
         hasWon = true;
@@ -31,7 +34,7 @@ public class WinScreen : MonoBehaviour
     public void QuitGame()
     {
         Time.timeScale = 1f;
-        Application.Quit();
         Debug.Log("Quit Game");
+        Application.Quit();
     }
 }
