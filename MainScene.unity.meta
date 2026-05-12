@@ -1,4 +1,3 @@
-<<<<<<<< HEAD:MainScene.unity.meta
 fileFormatVersion: 2
 guid: 309df1b451555a34f9970e14f45bba75
 DefaultImporter:
@@ -6,12 +5,3 @@ DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-========
-fileFormatVersion: 2
-guid: 88f32f765d1b23546b3e78acedfe6106
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
->>>>>>>> origin/coding:PuzzleCrypt/Assets/Scenes/MainSceneCoding.unity.meta
