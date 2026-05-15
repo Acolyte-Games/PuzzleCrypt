@@ -10,6 +10,11 @@ public class DeathManager : MonoBehaviour
 
     private static GameObject currentPlayer;
 
+    // Tracks the active MazeTimer so it can be reset on death.
+    // Assign via RegisterMazeTimer() when the player enters a maze room,
+    // and clear it with UnregisterMazeTimer() when they leave.
+    private static MazeTimer activeMazeTimer;
+
     void Awake()
     {
         if (instance == null)
@@ -23,11 +28,37 @@ public class DeathManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Call this when the player enters a maze room so DeathManager knows
+    /// which MazeTimer to reset on death.
+    /// </summary>
+    public static void RegisterMazeTimer(MazeTimer timer)
+    {
+        activeMazeTimer = timer;
+    }
+
+    /// <summary>
+    /// Call this when the player leaves a maze room to stop DeathManager
+    /// from resetting a timer that is no longer relevant.
+    /// </summary>
+    public static void UnregisterMazeTimer()
+    {
+        activeMazeTimer = null;
+    }
+
     public static void TriggerDeath(GameObject player)
     {
         currentPlayer = player;
 
         DisablePlayer(player);
+
+        // Reset the active maze puzzle (stops the countdown, resets levers
+        // and spikes) before firing the general death event.
+        if (activeMazeTimer != null)
+        {
+            activeMazeTimer.ResetPuzzle();
+            Debug.Log("Maze puzzle reset due to player death.");
+        }
 
         OnPlayerDeath?.Invoke();
 
@@ -56,7 +87,7 @@ public class DeathManager : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-            Application.Quit();
+        Application.Quit();
 #endif
     }
 
