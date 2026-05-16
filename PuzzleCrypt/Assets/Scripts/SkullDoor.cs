@@ -13,15 +13,24 @@ public class SkullDoor : MonoBehaviour
 
     public void TryActivate()
     {
+        Debug.Log($"Trying to activate {gameObject.name}");
+
         SkullKey keyScript = null;
 
-        // Check both possible ways of getting the key reference
         if (pairedSkull != null)
         {
             keyScript = pairedSkull.GetComponent<SkullKey>();
         }
 
-        if (keyScript != null && keyScript.isCollected)
+        if (keyScript == null)
+        {
+            Debug.Log("No SkullKey found!");
+            return;
+        }
+
+        Debug.Log($"Key collected = {keyScript.isCollected}");
+
+        if (keyScript.isCollected)
         {
             SetActive(true);
         }

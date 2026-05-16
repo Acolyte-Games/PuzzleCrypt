@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
 
 public class WinScreen : MonoBehaviour
 {
@@ -8,9 +7,11 @@ public class WinScreen : MonoBehaviour
 
     private bool hasWon = false;
 
-    public void OnWinTest(InputAction.CallbackContext context)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (context.performed)
+        Debug.Log("Something entered trigger: " + other.name);
+
+        if (other.CompareTag("Player"))
         {
             ShowWinScreen();
         }
